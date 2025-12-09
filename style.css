@@ -123,9 +123,14 @@ img {
     text-decoration: underline;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+
 @media (max-width: 600px) {
     body {
-        font-size: 15px; /* fonte um pouco menor, mas legível */
+        font-size: 15px;
         line-height: 1.6;
         padding: 10px;
     }
@@ -145,7 +150,7 @@ img {
     .menu a {
         font-size: 0.95rem;
         padding: 8px 12px;
-        width: 100%; /* ocupa toda largura */
+        width: 100%; 
         text-align: center;
     }
 
@@ -180,3 +185,4 @@ img {
         line-height: 1.6rem;
     }
 }
+
